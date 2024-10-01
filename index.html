@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/script.js" type="text/javascript" defer></script>
+    <title>PA_PG_FIB_FAT</title>
+</head>
+<header>
+    <h1>EF 06 - Loop FOR</h1>
+</header>
+<body>
+    <!-- ------- Exercicio 1 --- Tabuada-- -->
+    <section id="">
+        <h2>1° Tabuada</h2>
+        <p></p>
+        <form action="">
+            <input type="number" id="num" placeholder="Digite um número">
+            <!--  -->
+            <button type="submit" onclick="tabuada()">Calcular</button>
+            <div id="resul"></div>            
+        </form>
+    </section>
+    <!-- ------- Exercicio 2 --- Soma dos produtos-- -->
+    <section id="">
+        <h2>2° Soma dos produtosa</h2>
+        <p></p>
+        <form action="">
+            <label for="valor">Digite os valores dos 5 produtos:</label>
+            <input type="text" id="valor" required>
+            <!--  -->
+            <button onclick="calcularSoma()">Calcular Soma</button>
+            <div id="soma"></div>            
+        </form>
+    </section>
+    <!-- ------- Exercicio 3 --- Soma dos produtos-- -->
+    <div id="">
+        <h2>3° Saldo</h2>
+        <p></p>
+        <input type="number" id="sald" placeholder="Saldo Inicial" required>
+        <label for="opera">Escolha a operação:</label>
+
+        <select name="calc" id="calc">
+            <option value="deb">Débito</option>
+            <option value="cred">Crédito</option>            
+        </select>
+
+        <input type="number" id="valor" placeholder="Valor da Operação" required>
+        <button onclick="calcularSaldo()">Calcular Saldo</button>    
+        <div id="saldo"></div>
+    </div>
+    <!-- ------- Exercicio Aula --- Progressão Aritmética-- -->
+    <section id="">
+        <h2>Progressão Aritmética</h2>
+        <p></p>
+        <form action="">
+            <label for="inicio">Valor initial</label>
+            <input type="number" id="inicio" id="inicio">
+
+            <label for="passo">Passo</label>
+            <input type="number" id="passo" id="passo">
+
+            <label for="repeticoes">Repetições</label>
+            <input type="number" id="repeticoes" id="repeticoes">
+
+            <button type="submit" onclick="calcProgArit()">Calcular</button>
+            <div id="progArit"></div>
+            <script src="script.js" type="text/javascript"></script>            
+        </form>
+    </section>
+    
+    <!-- ------- Exercicio 1 --- Progressão Aritmética-- -->
+    <section id="">
+        <h2>Progressão Aritmética</h2>
+        <p></p>
+        <form action="">
+            <label for="inicio">Valor initial</label>
+            <input type="number" id="inicio" id="inicio">
+
+            <label for="passo">Passo</label>
+            <input type="number" id="passo" id="passo">
+
+            <label for="repeticoes">Repetições</label>
+            <input type="number" id="repeticoes" id="repeticoes">
+
+            <button type="submit" onclick="calcProgArit()">Calcular</button>
+            <div id="progArit"></div>
+            <script src="script.js" type="text/javascript"></script>            
+        </form>
+    </section>
+    
+
+</body>
+</html>
